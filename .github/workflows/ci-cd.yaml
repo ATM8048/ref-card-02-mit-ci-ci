@@ -41,4 +41,4 @@ jobs:
         push: true  
         tags: |
           ${{ secrets.DOCKERHUB_USERNAME }}/react-app:latest
-          ghcr.io/${{ steps.lower.outputs.repo_owner }}/react-app:latest
+          ghcr.io/${{ steps.lower.outputs.repo_owner }}/ref-card-02-mit-ci-ci:latest
